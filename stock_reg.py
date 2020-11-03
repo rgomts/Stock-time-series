@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 tick_name = input("ticker name: ")
 co_name = input("company name: ")
 
-fp ='/Users/rafaelgomes/Downloads/' + tick_name +'.csv'
+fp = input("filepath (csv): ")
 df = pd.read_csv(fp)
 df.head()
 print(df.head())
